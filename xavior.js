@@ -534,19 +534,21 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+
 │⭔ 1 Minggu :10k
 │⭔ 1 Bulan :15k
 │⭔ Permanen :20k
 └───────⭓
-┌──⭓ *Jadi Bot*
+┌──⭓ *Jadi Bot*
+
 │⭔ Jasa Jadi Bot: 30k
 │⭔ Jadi Owner AzzBot: 15k
 └───────⭓
-┌──⭓ *Harga Sc Bot Wa*
+┌──⭓ *Harga Sc Bot Wa*
+
 │⭔ Versi 1 :20k
 │⭔ Versi 2 :25k
-│⭔ Free :Di Yt MBY•OFFICIAL
 └───────⭓` }, { quoted: m })
             }
             case 'subscribe':{
@@ -567,7 +569,7 @@ xavior.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {q
             case 'session': {
             if (!isCreator) throw mess.owner
             ana = fs.readFileSync('./Xavior.json')
-              m.reply('*Woe Bre Minimal Subscribe Yt MBY•OFFICIAL Lah*')
+              m.reply('*🗿☝️*')
             xavior.sendMessage(m.chat, {document: ana, mimetype: 'application/json', fileName: `Xavior.json`}, {quoted:m})}
             break
             
@@ -873,7 +875,7 @@ xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `Int
             break
             case 'namafotobot|subscribe': {
              if (!isCreator) throw mess.owner
-             xavior.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `Foto menu Berhasil Diganti\n\nHei Lord *MBY•OFFICIAL*..🙏\n\nJangan Sering Sering Ubah Fot Bot Yah🗿` }, { quoted: m })
+             xavior.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/fb48ebecf42790fd0f66f.jpg' }, caption: `Foto menu Berhasil Diganti*..🙏\n\nJangan Sering Sering Ubah Fot Bot Yah🗿` }, { quoted: m })
             } break
             
            case 'setppgroup': case 'setppgrup': case 'setppgc': {
@@ -1272,7 +1274,7 @@ break
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} Subscribe Yt MBY•OFFICIAL`
+                if (!text) throw `Text mana?\n\nContoh : ${prefix + command} Hallo `
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} detik`)
 		for (let yoi of anu) {
@@ -1630,7 +1632,7 @@ break
             }
             break
            
-           case 'tutor': {
+           case 'nshsjsb': {
            let yts = require("yt-search")
                 let search = await yts('https://youtu.be/yZ1TEsTeE_k')
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
@@ -1642,11 +1644,10 @@ break
                     image: { url: anu.thumbnail },
                     caption: `
 ⭔ *Title* : Tutor Buat Bot Seperti Di Gc 🗿
-⭔ *No Wa*: 081511480762
+⭔ *No Wa*: 082252285143
 ⭔ *Duration* : 24Hours
 ⭔ *Viewers* : 14M views
-⭔ *Upload* At : 1 years ago
-⭔ *Author* : MBY•OFFICIAL 
+⭔ *Upload* At : 1 years ag 
 ⭔ *Channel* : ${anu.author.url}
 ⭔ *Description* : Gak Subrek Bot Mati!
 ⭔ *Url* : ${anu.url}`,
@@ -2821,7 +2822,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: "Note:JANGAN SPAM!!",
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "🤖Bot By MBY•OFFICIAL🤖",
+								"title": "🤖Bot By Ryann-🤖",
 								"rows": [
 									{
 										"title": "▪️Tutor Pasang Bot",
@@ -2923,7 +2924,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Owner 👨‍💻",
 								"rows": [
 									{
-										"title": "MBY•OFFICIAL",
+										"title": "YannBot-MD",
 										"rowId": `${prefix}owner`
 									
 									}]
@@ -2936,7 +2937,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 
             
-            case 'okay': { m.reply('Subrek lah Yt MBY•OFFICIAL')} break
+            case 'okay': { m.reply('Y')} break
             
              case 'menu': {
             anu = `── *Welcome* ──
